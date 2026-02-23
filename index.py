@@ -153,4 +153,5 @@ def home():
     return render_template_string(page, result=result)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
+
